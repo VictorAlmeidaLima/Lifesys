@@ -1,0 +1,49 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: PAGAMENTO
+Descrição: Informações de pagamento Pagos e Abertos
+
+Listagem de Campos:
+
+Nome: CODIGO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -   - Identificação no Sistema de Atendimento.
+Nome: CLIENTE - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: SISTEMA - Tipo: VARCHAR - Tamanho: 15 - Preenchimento Obrigatório -  
+Nome: DATAVENC - Tipo: DATE - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: NUMEROBOLETA - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: DATAPAGTO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: VALOR - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: VALORPAGO - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: SITUACAO - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: VALOR_MULTA - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: VALOR_JUROS - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: VALOR_PAGAR - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: USUARIO - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: FORMA_PGTO - Tipo: VARCHAR - Tamanho: 2 -  -  
+Nome: NUM_NOTA - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: TIPO_COBRANCA - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: REFERENCIA_NOTA - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: DATA_GERACAO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: SITUACAO_NOTA - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: SERIE_NOTA - Tipo: VARCHAR - Tamanho: 1 -  -  
+Nome: CODIGO_INTERNET - Tipo: VARCHAR - Tamanho: 30 -  -  
+Nome: DATA_IMPRESSAO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: HORA_IMPRESSAO - Tipo: TIME - Tamanho: 4 -  -  
+Nome: DESCRICAO_NOTA - Tipo: VARCHAR - Tamanho: 255 -  -  
+Nome: IMPRESSO - Tipo: VARCHAR - Tamanho: 1 -  -  
+Nome: ALIQUOTA_ISS - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: IRRF - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: PIS_COFINS - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: BASE_CALCULO - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: COD_AGRUPAMENTO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: VALOR_NOTA - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: OBS_NOTA - Tipo: VARCHAR - Tamanho: 1000 -  -  
+Nome: REGERADO - Tipo: VARCHAR - Tamanho: 1 -  -  
+Nome: DATAVENC_ORIG - Tipo: DATE - Tamanho: 4 -  -  
+Nome: NOSSO_NUMERO - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: VALOR_GERADO - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: PIS - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: COFINS - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: CSLL - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: VENC_ALTERADO - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

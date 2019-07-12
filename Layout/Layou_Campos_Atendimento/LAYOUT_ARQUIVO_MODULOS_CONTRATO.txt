@@ -1,0 +1,16 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: MODULOS_CONTRATO
+Descrição: Listagem de módulos contratados (vinculo entre contrato e módulo)
+
+Listagem de Campos:
+
+Nome: COD_MODULO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: CLIENTE - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: COD_IDENTIFICACAO - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: NUM_HD - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: QUANTIDADE - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: MAC - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: QUANT_USUARIOS - Tipo: INTEGER - Tamanho: 4 -  -  
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

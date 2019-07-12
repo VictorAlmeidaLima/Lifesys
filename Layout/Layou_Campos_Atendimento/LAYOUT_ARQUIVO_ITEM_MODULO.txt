@@ -1,0 +1,12 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: ITEM_MODULO
+Descrição: Informações complementares ao módulos, maquinas de interfaceamento.
+
+Listagem de Campos:
+
+Nome: CODIGO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -   - Identificação no Sistema de Atendimento.
+Nome: MODULO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: DESCRICAO - Tipo: VARCHAR - Tamanho: 50 -  -  
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

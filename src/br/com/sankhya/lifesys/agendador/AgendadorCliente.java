@@ -24,6 +24,7 @@ public class AgendadorCliente implements ScheduledAction {
         Logger logger = Logger.getLogger(AgendadorCliente.class.getSimpleName());
         try{
             logger.warning("AgendadorCliente: *Entrou*");;;
+
             codLayout = BigDecimal.valueOf(71000);
             nomeArquivo = mudaNomeArquivo("#CLIENTE#", codLayout);
 

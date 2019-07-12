@@ -1,0 +1,91 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: CLIENTE
+Descrição: Listagem de Clientes Cadastrados
+
+Listagem de Campos:
+
+Nome: CODIGO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório - Identificação no Sistema de Atendimento.
+Nome: NOME - Tipo: VARCHAR - Tamanho: 80 -  -  
+Nome: RESPONSAVEL - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: CONTATO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: ENDERECO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: BAIRRO - Tipo: VARCHAR - Tamanho: 40 -  -  
+Nome: CEP - Tipo: VARCHAR - Tamanho: 8 -  -  
+Nome: CIDADE - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: CIDADEDESC - Tipo: VARCHAR - Tamanho: 40 -  -  
+Nome: INSCRICAO - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: TIPOPESSOA - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: CNPJ - Tipo: VARCHAR - Tamanho: 14 -  -  
+Nome: EMAIL1 - Tipo: VARCHAR - Tamanho: 100 -  -  
+Nome: EMAIL2 - Tipo: VARCHAR - Tamanho: 100 -  -  
+Nome: HOSPITAL - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: TIPOSERVICO - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: LOCALSERVICO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: OBSERVACAO - Tipo: BLOB - Tamanho: 8 -  -  
+Nome: SITUACAO - Tipo: VARCHAR - Tamanho: 10 - Preenchimento Obrigatório -  
+Nome: RESPONSACOBR - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: ENDERECOCOBR - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: BAIRROCOBR - Tipo: VARCHAR - Tamanho: 40 -  -  
+Nome: CEPCOBR - Tipo: VARCHAR - Tamanho: 8 -  -  
+Nome: CIDADECOBR - Tipo: VARCHAR - Tamanho: 40 -  -  
+Nome: EMAILCOBR - Tipo: VARCHAR - Tamanho: 100 -  -  
+Nome: CONTATOCOBR - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: PESSOACOBR - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: CNPJCOBR - Tipo: VARCHAR - Tamanho: 14 -  -  
+Nome: INSCRICAOCOBR - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: FORMACOBR - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: DIACOBRA - Tipo: VARCHAR - Tamanho: 2 -  -  
+Nome: VALORDESCONTO - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: VALORCOBR - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: NOTA - Tipo: VARCHAR - Tamanho: 3 -  -  
+Nome: FORMAPAGAMENTO - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: FATURAMES - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: CODCIDADECOBR - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: NOMEREDUZIDO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: FLAGCOBRANCA - Tipo: VARCHAR - Tamanho: 11 -  -  
+Nome: OBSERVACAO1 - Tipo: BLOB - Tamanho: 8 -  -  
+Nome: NOMEFTP - Tipo: VARCHAR - Tamanho: 80 -  -  
+Nome: IMPOSTO - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: CLIENTE - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: SISTEMA - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: PRIORIDADE - Tipo: VARCHAR - Tamanho: 25 -  -  
+Nome: TIPO_DESCR - Tipo: VARCHAR - Tamanho: 15 -  -  
+Nome: DESCRICAO_NOTA - Tipo: VARCHAR - Tamanho: 255 -  -  
+Nome: ATENDIDOPOR - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: TIPO_ATUALIZACAO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: EMPRESA - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: INADIMPLENTE - Tipo: VARCHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False)  
+Nome: PERIODO_RESET - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: CONTATO_INADIMPLENCIA - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: NOME_FANTASIA - Tipo: VARCHAR - Tamanho: 80 -  -  
+Nome: NUM_HD - Tipo: VARCHAR - Tamanho: 30 -  -  
+Nome: COD_UNIDADE - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: AUTORIZA_REMOTO - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: NOME_ENV - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: ENDERECO_ENV - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: BAIRRO_ENV - Tipo: VARCHAR - Tamanho: 30 -  -  
+Nome: CIDADE_ENV - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: CEP_ENV - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: AUTORIZACAO_NOTA - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: DATA_AUTORIZA_REMOTO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: COBRAR_ENVIO_BOLETO - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: VALOR_ENVIO_NOTA - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: FORMA_ACESSO - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: FORMA_ACESSO_OUTROS - Tipo: VARCHAR - Tamanho: 100 -  -  
+Nome: RETEM_ISS - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: VALOR_ISS - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  
+Nome: ACEITA_MALA_DIRETA - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: USA_RESET_NET - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: VERSAO_ATUALIZACAO - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: TIPO_CONTRATO - Tipo: VARCHAR - Tamanho: 1 -  -  
+Nome: MAQUINA_TESTE - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: DATA_INATIVO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: VALIDADO - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: USUARIO_VALIDACAO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: DATA_ATUALIZACAO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: RETEM_PIS_COFINS_CSLL - Tipo: CHAR - Tamanho: 1 - Preenchimento Obrigatório - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: USA_MINHA_CONTA - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+Nome: RETEM_IMPOSTO_RENDA - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

@@ -1,0 +1,9 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: ITENS_MODULOS
+Descrição: Listagem de Interlacs vinculados aos contratos
+
+Listagem de Campos:
+
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

@@ -1,0 +1,15 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: MODULOS
+Descrição: Listagem de Módulos Cadastrados (produtos disponiveis para venda)
+
+Listagem de Campos:
+
+Nome: CODIGO - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  - Identificação no Sistema de Atendimento. 
+Nome: DESCRICAO - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: DETALHE - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: ID_APLICACAO - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: SISTEMA - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: PERMITE_TS - Tipo: CHAR - Tamanho: 1 -  - Obs.: O valor do campo deve ser T ou F - T para Verdade(True) e F para Falso (False) 
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.

@@ -1,0 +1,26 @@
+Layout: Arquivo txt de largura fixa
+
+Arquivo de Importação: CONTRATO
+Descrição: Listagem de Contrato de Clientes
+
+Listagem de Campos:
+
+Nome: CLIENTE - Tipo: INTEGER - Tamanho: 4 - Preenchimento Obrigatório -  - Identificação no Sistema de Atendimento.
+Nome: SISTEMA - Tipo: VARCHAR - Tamanho: 12 - Preenchimento Obrigatório -  
+Nome: RESPONSAVEL - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: NUMERO - Tipo: VARCHAR - Tamanho: 10 -  -  
+Nome: ASSINADO - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: DATASS - Tipo: DATE - Tamanho: 4 -  -  
+Nome: DATAADESAO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: VALORADESAO - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: VALORMENSA - Tipo: INTEGER - Tamanho: 4 -  -  
+Nome: DATA_ENCERRAMENTO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: CPF_RESPONSAVEL - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: CPF_ASSINADO - Tipo: VARCHAR - Tamanho: 12 -  -  
+Nome: INDICE_REAJUSTE - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: TESTEMUNHA - Tipo: VARCHAR - Tamanho: 50 -  -  
+Nome: CPF_TESTEMUNHA - Tipo: VARCHAR - Tamanho: 20 -  -  
+Nome: INICIO_PAGAMENTO - Tipo: DATE - Tamanho: 4 -  -  
+Nome: BANCO_DADOS - Tipo: VARCHAR - Tamanho: 30 -  -  
+
+Obs.: Os campos devem vir na ordem em que foram apresentados acima.
