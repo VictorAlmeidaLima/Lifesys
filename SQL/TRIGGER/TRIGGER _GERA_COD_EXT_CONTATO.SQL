@@ -1,0 +1,52 @@
+CREATE TRIGGER [sankhya].[TRG_INC_TGFCTT_CODEXT]
+ON [sankhya].[TGFCTT]
+FOR INSERT
+AS
+BEGIN
+
+
+DECLARE @V_CODPARC INT,
+		@V_CODCONTATO INT,
+		@V_TIPO VARCHAR(1),
+		@V_LOGICO VARCHAR(1),
+		@V_INTEIRO INT;
+
+		SELECT
+		@V_CODPARC = CODPARC,
+		@V_CODCONTATO = CODCONTATO,
+		@V_TIPO = AD_TIPOCONTATO
+		FROM INSERTED;
+
+		SET @V_LOGICO = (SELECT LOGICO  FROM TSIPAR WHERE CHAVE = 'GERARCODEXTAUTO');
+
+		SET @V_INTEIRO = (SELECT INTEIRO FROM TSIPAR WHERE CHAVE = 'ULTCODEXT');
+
+		--Se o Parâmetro estiver ligado.
+		IF (@V_LOGICO = 'S')
+		BEGIN
+
+		--Se for POSTO.
+			IF (@V_TIPO = 'P')
+			BEGIN
+
+				--Incremento o ultimo código externo
+				SET @V_INTEIRO = @V_INTEIRO + 1;
+
+				--Gero o código para o registro
+				UPDATE TGFCTT SET AD_CODEXT = @V_INTEIRO
+				WHERE CODPARC = @V_CODPARC AND CODCONTATO = @V_CODCONTATO;
+
+				--Atualizo o Parâmetro para o ultimo código Externo gerado
+				UPDATE TSIPAR SET INTEIRO = @V_INTEIRO
+				WHERE CHAVE = 'ULTCODEXT';
+
+			END;
+
+		END;
+
+
+END
+
+
+
+
